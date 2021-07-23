@@ -5,7 +5,7 @@ date:   2021-06-12 01:03:29 +0200
 categories: update
 comments: true
 ---
-Introducing weekly comprehensive blog posts on deep learning research topics!
+Weekly blogs update
 
 <!--more-->
-I've been lethargic on the commitment on blogging in the post. Starting this week (mid June 2021), I'll dedicate time every Saturday to add a new blog here, on my website. Be on the lookout for in depth blogs on some of the latest research topics in deep learning!   
+Along with my daily activites, a read up on a lot of research papers. I used to summarise the interesting ones on evernote. From now on, I'll convert into a small blog-like writeup covering the basic ideas of the work. Planning to upload one every Saturday, the level of detail I go into depends on how much time I can dedicate to it in the week. While I'm writing it for myself, feel free to contact me if you want to understand something in detail.   
