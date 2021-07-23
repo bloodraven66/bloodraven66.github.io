@@ -15,4 +15,7 @@ Here are some of the things I'm currently working on:
 </ul>
 
 Feel free to reach out to me if you are interested in knowing more about something or interested in collaborating with me!
-I'll be attending InterSpeech 2021 Speech Conference!
+
+I'll be helping with organising <a href='https://navana-tech.github.io/IS21SS-indicASRchallenge/'>MUCS 2021 Workshop</a> taking place on 12th, 13th Aug. Register for the event if you are interetsed in automatic speech recognition!
+
+I'll be attending INTERSPEECH 2021 Speech Conference!
