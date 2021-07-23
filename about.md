@@ -17,6 +17,7 @@ I enjoy learning more and working in different research fields - Speech(Producti
 <b>News:</b><br>
 <b><u>2021</u></b><br>
 <b>July :</b> Attending <a href='https://www.eeml.eu/'>EEML</a> 2021 from July 7-15th.<br>
+<b>June :</b> Received travel grant(+full registration) for INTERSPEECH 2021.<br>
 <b>June :</b> Our submission for INTERSPEECH 2021 Show and Tell has been accepted.<br>
 <b>April :</b> Our work on 'Estimating articulatory movements in speech production with transformer
 networks' has been accepted at INTERSPEECH 2021 for oral presentation.<br>
