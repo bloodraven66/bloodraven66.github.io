@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about/
 ---
-I enjoy learning more and working in different research fields - Speech(Production, TTS, ASR), Vision(Unsupervised), Reinforcement Learning(Bandits!). I am currently employed at SPIRE Lab, IISc, Bangalore on a Speech recognition project on Indian languages, funded by Gates Foundation. Previously, I worked at a startup - MyHealthcareAI, on various vision, NLP, speech DL tasks. I completed my undergrad in 2019, during which we won the best project award for Material defect detection and SNR improvement with DL algorithms.
+I enjoy learning more and working in different research fields - Speech(Production, TTS, ASR), Vision(Unsupervised). I am currently employed at SPIRE Lab, IISc, Bangalore on a Speech recognition project on Indian languages, funded by Gates Foundation. Previously, I worked at a startup - MyHealthcareAI, on various vision, NLP, speech DL tasks. I completed my undergrad in 2019, during which we won the best project award for Material defect detection and SNR improvement with DL algorithms.
 <br><br>
 
 <b>I will be applying for PhD programs at the end of this year for 2022 intake. While I'm not restricted to work on a specific domain, I'm keen on contributing to areas such as -
