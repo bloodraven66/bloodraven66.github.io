@@ -11,7 +11,7 @@ I enjoy learning more and working in different research fields - Speech(Producti
 <li>Multi-modal learning</li>
 <li>Generative modelling (variational methods, flows etc)</li>
 </ul>
-<b>Do reach out to me if you find me to be a good candidate for your group!</b>
+<b>My CV can be found <a href='https://drive.google.com/file/d/1jrQOaOyrq6iGORtKxS5levY2qR-y7vtt/view?usp=sharing'><u>here</u></a>Do reach out to me if you find me to be a good candidate for your group!</b>
 
 
 <b>News:</b><br>
