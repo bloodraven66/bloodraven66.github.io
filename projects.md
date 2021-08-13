@@ -7,15 +7,15 @@ permalink: /projects/
 Here are some of the things I'm currently working on:
 
 <ul>
-  <li>Text to Speech with different Indian languages</li>
-  <li>Visualising migsaggital plane of mouth during speech production</li>
-  <li>Improvements in transformer architecture and training techniques for speech/ articulatory movement synthesis</li>
+  <li>TTS, ASR with different Indian languages</li>
+  <li>Speech, articulatory movement synthesis with transformers</li>
+  <li>Audio-visual learning in a speech production setup</li>
   <li>Contributing to Speechbrain - TTS architectures, vocoders</li>
-  <li>Small scale multi modal system</li>
+  <li>Visualising midsaggital plane of mouth during speech production</li>
+  <li>Question-Answering with chaai challenge in kaggle</li>
+  <li>Few-shot handwriting style transfer</li>
 </ul>
 
-Feel free to reach out to me if you are interested in knowing more about something or interested in collaborating with me!
-
-I'll be helping with organising <a href='https://navana-tech.github.io/IS21SS-indicASRchallenge/'>MUCS 2021 Workshop</a> taking place on 12th, 13th Aug. Register for the event if you are interetsed in automatic speech recognition!
-
 I'll be attending INTERSPEECH 2021 Speech Conference!
+
+Feel free to reach out to me if you are interested in knowing more about something or interested in collaborating with me!

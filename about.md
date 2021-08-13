@@ -8,13 +8,14 @@ I enjoy learning more and working on a lot of machine learning research. I am cu
 
 <b>I will be applying for PhD programs at the end of this year for 2022 intake. I'm keen on contributing to multi-modal learning by utilising and extending work on areas such as generative modelling (variational methods, flows) & contrastive learning.
 
-  
+
 <b>My CV can be found <a href='https://drive.google.com/file/d/1jrQOaOyrq6iGORtKxS5levY2qR-y7vtt/view?usp=sharing'><u>here</u></a>. Do reach out to me if you find me to be a good candidate for your group!</b>
 
 
 <b>News:</b><br>
 <b><u>2021</u></b><br>
-<b>July :</b> Attending <a href='https://www.eeml.eu/'>EEML</a> 2021 from July 7-15th.<br>
+<b>August :</b> Along with Prof. Shinji Watanabe & Pengcheng Guo, delivered a brief talk on building ESPnet E2E recipe for <a href='https://navana-tech.github.io/IS21SS-indicASRchallenge/'>MUCS</a> challenge datasets, at MUCS 2021 Workshop.<br> 
+<b>July :</b> Attended <a href='https://www.eeml.eu/'>EEML</a> 2021 from July 7-15th.<br>
 <b>June :</b> Received travel grant(+full registration) for INTERSPEECH 2021.<br>
 <b>June :</b> Our submission for INTERSPEECH 2021 Show and Tell has been accepted.<br>
 <b>April :</b> Our work on 'Estimating articulatory movements in speech production with transformer
