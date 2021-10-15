@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about/
 ---
-I enjoy learning more and working on a lot of machine learning research. I am currently employed at SPIRE Lab, IISc, Bangalore on a Speech recognition project on Indian languages, funded by Gates Foundation. I also spend time on different multi-modal problems in speech production. Previously, I worked at a startup - MyHealthcareAI, on various vision, NLP, speech DL tasks. I completed my undergrad in 2019, during which we won the best project award for Material defect detection and SNR improvement with DL algorithms.
+I enjoy learning more and working on a lot of machine learning research. I am currently employed at SPIRE Lab, IISc, Bangalore on a speech recognition project (funded by Gates Foundation) and speech synthesis (funded by GIZ) on different Indian languages. I also spend time working on multi modal problems in speech production. Previously, I worked at a startup - MyHealthcareAI, on various vision, NLP, speech DL tasks. I completed my undergrad in 2019, during which we won the best project award for Material defect detection and SNR improvement with DL algorithms.
 <br><br>
 
 <b>I will be applying for PhD programs at the end of this year for 2022 intake. I'm keen on contributing to multi-modal learning by utilising and extending work on areas such as generative modelling (variational methods, flows) & contrastive learning.
@@ -14,7 +14,8 @@ I enjoy learning more and working on a lot of machine learning research. I am cu
 
 <b>News:</b><br>
 <b><u>2021</u></b><br>
-<b>August :</b> Along with Prof. Shinji Watanabe & Pengcheng Guo, delivered a brief talk on building ESPnet E2E recipe for <a href='https://navana-tech.github.io/IS21SS-indicASRchallenge/'>MUCS</a> challenge datasets, at MUCS 2021 Workshop.<br> 
+<b>October :</b> Gave a talk on diffusion probabilistic models and it's application in speech synthesis as part of my lab talk at SPIRE lab.<br>
+<b>August :</b> Along with Prof. Shinji Watanabe & Pengcheng Guo, delivered a brief talk on building ESPnet E2E recipe for <a href='https://navana-tech.github.io/IS21SS-indicASRchallenge/'>MUCS</a> challenge datasets, at MUCS 2021 Workshop.<br>
 <b>July :</b> Attended <a href='https://www.eeml.eu/'>EEML</a> 2021 from July 7-15th.<br>
 <b>June :</b> Received travel grant(+full registration) for INTERSPEECH 2021.<br>
 <b>June :</b> Our submission for INTERSPEECH 2021 Show and Tell has been accepted.<br>
