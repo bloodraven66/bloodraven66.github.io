@@ -3,16 +3,21 @@ layout: default
 title: About
 permalink: /about/
 ---
-I enjoy learning more and working on a lot of machine learning research. I am currently employed at SPIRE Lab, IISc, Bangalore on a speech recognition project (funded by Gates Foundation) and speech synthesis (funded by GIZ) on different Indian languages. I also spend time working on multi modal problems in speech production. Previously, I worked at a startup - MyHealthcareAI, on various vision, NLP, speech DL tasks. I completed my undergrad in 2019, during which we won the best project award for Material defect detection and SNR improvement with DL algorithms.
+I enjoy learning more and working on a lot of machine learning research. I am currently employed at SPIRE Lab, IISc, Bangalore on a speech recognition project (funded by Gates Foundation), speech synthesis (funded by GIZ) on different Indian languages. I also spend time working on multi modal problems in speech production. Previously, I worked at a startup - MyHealthcareAI, on various vision, NLP, speech DL tasks. I completed my undergrad in 2019, during which we won the best project award for Material defect detection and SNR improvement with DL algorithms.
 <br><br>
 
-<b>I will be applying for PhD programs at the end of this year for 2022 intake. I'm keen on contributing to multi-modal learning by utilising and extending work on areas such as generative modelling (variational methods, flows) & contrastive learning.
 
-
-<b>My CV can be found <a href='https://drive.google.com/file/d/1jrQOaOyrq6iGORtKxS5levY2qR-y7vtt/view?usp=sharing'><u>here</u></a>. Do reach out to me if you find me to be a good candidate for your group!</b>
+<b>My CV can be found <a href='https://drive.google.com/file/d/1jrQOaOyrq6iGORtKxS5levY2qR-y7vtt/view?usp=sharing'><u>here</u></a></b>
 
 
 <b>News:</b><br>
+<b><u>2022</u></b><br>
+<b>Nov :</b> Our Multilingual speech synthesis challenge has been accepted at ICASSP Signal processing grand challenges! More info on challenge participation to be released soon.<br>
+<b>Nov :</b> Finally my first in-person lab talk! Gave sessions on various approaches in end-to-end speeh recognition.<br>
+<b>Oct :</b> Our proposal for SLT code hackathon has been accepted. Looking forward to work on it with the team and attend the event in person in Qatar.<br>
+<b>Sept: </b> Visited Korea for INTERSPEECH 2022, had a great time at the conference.<br>
+<b>June :</b> 2 papers and a show and tell accepted at INTERSPEECH 2022!<br>
+<b>Jan :</b> Part of organising <a href="https://sites.google.com/view/gramvaaniasrchallenge/home?authuser=0">Gramvaani ASR challenge</a>, as part of low resource ASR development special session at INTERSPEECH 2022.<br>
 <b><u>2021</u></b><br>
 <b>October :</b> Gave a talk on diffusion probabilistic models and it's application in speech synthesis as part of my lab talk at SPIRE lab.<br>
 <b>August :</b> Along with Prof. Shinji Watanabe & Pengcheng Guo, delivered a brief talk on building ESPnet E2E recipe for <a href='https://navana-tech.github.io/IS21SS-indicASRchallenge/'>MUCS</a> challenge datasets, at MUCS 2021 Workshop.<br>
