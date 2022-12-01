@@ -16,6 +16,7 @@ I enjoy learning more and working on a lot of machine learning research. I am cu
 <b>Nov :</b> Finally my first in-person lab talk! Gave sessions on various approaches in end-to-end speeh recognition.<br>
 <b>Oct :</b> Our proposal for SLT code hackathon has been accepted. Looking forward to work on it with the team and attend the event in person in Qatar.<br>
 <b>Sept: </b> Visited Korea for INTERSPEECH 2022, had a great time at the conference.<br>
+<b>Aug: </b> Received travel grant from Microsoft Research to attend INTERSPEECH in-person, thank you MSR!<br>
 <b>June :</b> 2 papers and a show and tell accepted at INTERSPEECH 2022!<br>
 <b>Jan :</b> Part of organising <a href="https://sites.google.com/view/gramvaaniasrchallenge/home?authuser=0">Gramvaani ASR challenge</a>, as part of low resource ASR development special session at INTERSPEECH 2022.<br>
 <b><u>2021</u></b><br>
