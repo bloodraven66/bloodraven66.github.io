@@ -4,14 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-Here are some of the things I'm currently working on:
+I used to be all over the place. Even now I feel like I'm spending too much time thinking on a wide range of topics !! 
+Here are some major approaches I'm looking at right now-
 
 <ul>
-  <li>TTS, ASR with different Indian languages</li>
-  <li>Speech, articulatory movement synthesis with transformers</li>
-  <li>Audio-visual learning in a speech production setup</li>
-  <li>Contributing to Speechbrain - TTS architectures, vocoders</li>
-  <li>Visualising midsaggital plane of mouth during speech production</li>
+  <li>TTS - how to make existing algorithms more efficient? how to improve multilingual learning? How to improve the duration model?</li>
+  <li>ASR - better alignments + deocding, improving multidialect/lingual learning</li>
+  <li>Speech production - a multimodal architecture for speech production data</li>
 </ul>
 
-Feel free to reach out to me if you are interested in collaborating with me, always keen on different multi modal problems involving speech, vision and/or text. 
+
