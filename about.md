@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
+# title: About
+# permalink: /about/
 ---
 I enjoy learning more and working on a lot of machine learning research. I am currently employed at SPIRE Lab, IISc, Bangalore on a speech recognition and synthesis projects. I also spend time working on multiresearch on speech recogntion, synthesis and production. Previously, I worked at a startup - MyHealthcareAI, on various vision, NLP, speech DL tasks. 
 
