@@ -15,6 +15,7 @@ My published work can be found on my google scholar.
         <ul>
         <li>I trained and open sourced large number of Indic TTS systems - <a href="https://huggingface.co/SYSPIN">huggingface link</a>.
         </ul>
+  
   <li>Significantly contributed to <a href="https://vaani.iisc.ac.in/">Vaani</a> project, towards data collection of around 16,000 hours of data for speech recongtion for Indian languages.</li>
   <li>I also led our proposals and work around the following challenges and special sessions organised by SPIRE lab</li>
         <ul>
