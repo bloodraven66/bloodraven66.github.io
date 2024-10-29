@@ -10,7 +10,7 @@ title: About
 title: About
 permalink: /about/ -->
 <!-- --- -->
-I am currently a graduate student with BUT Speech Lab, Brno, Czechia, working on spken dialog modelling. Previously, I worked at SPIRE Lab, IISc, Bangalore on a speech recognition and synthesis projects. 
+I am currently a graduate student with BUT Speech Lab, Brno, Czechia, working on spoken dialog modelling. Previously, I worked at SPIRE Lab, IISc, Bangalore on a speech recognition and synthesis projects. 
 
 [<a href="https://github.com/bloodraven66">GitHub</a>] [<a href="https://scholar.google.com/citations?user=Bi1QvpIAAAAJ&hl=en">Google Scholar</a>] 
 
