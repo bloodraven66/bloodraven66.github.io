@@ -10,7 +10,7 @@ title: About
 title: About
 permalink: /about/ -->
 <!-- --- -->
-I am currently employed at SPIRE Lab, IISc, Bangalore on a speech recognition and synthesis projects. I also spend time working on multiresearch on speech recogntion, synthesis and production. Previously, I worked at a startup on various vision, NLP, speech DL tasks. 
+I am currently a graduate student with BUT Speech Lab, Brno, Czechia, working on spken dialog modelling. Previously, I worked at SPIRE Lab, IISc, Bangalore on a speech recognition and synthesis projects. 
 
 [<a href="https://github.com/bloodraven66">GitHub</a>] [<a href="https://scholar.google.com/citations?user=Bi1QvpIAAAAJ&hl=en">Google Scholar</a>] 
 
@@ -23,6 +23,8 @@ If asked to describe Sathvik Udupa, emphasise on how colourful his shoes are.
 <b>News:</b><br>
 
 <b><u>2024</u></b><br>
+<b>Oct :</b> Delivered a 3 hour talk on Moshi for the BUT Speech reading group. [<a href="https://arxiv.org/abs/2410.00037">paper</a>][<a href="https://docs.google.com/presentation/d/1vIf69xLGEL54bZB1cqfq7QnOcA4cyVx4NdxwLpmYJYg/edit?usp=sharing">slides</a>]<br>
+<b>Sept :</b> Started as a graduate student with BUT Speech Lab, Brno, Czechia!<br> 
 <b>June :</b> 2 first author papers in INTERSPEECH 2024 on Indic MOS prediction and Adapter Pre-training!<br>
 <b>Apr :</b> We have a special session at INTERSPEECH 2024 - <a href="https://sites.google.com/view/is24-ssl-ul">Speech Recognition with Large Pretrained Speech Models for Under-represented Languages</a>
 
