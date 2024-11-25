@@ -6,7 +6,7 @@ permalink: /projects/
 
 <H3>BUT Speech, Brno University of Technology</H3>
 <ul>
-  <li>Contributing to a spoken dialogue project witht rust implementation and research outcomes 
+  <li>Contributing to a spoken dialogue project witht rust implementation and research outcomes</li>
 </ul>
 
 ---
