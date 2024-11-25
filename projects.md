@@ -4,7 +4,12 @@ title: Projects
 permalink: /projects/
 ---
 
-My published work can be found on my google scholar.
+<H3>BUT Speech, Brno University of Technology</H3>
+<ul>
+  <li>Contributing to a spoken dialogue project witht rust implementation and research outcomes 
+</ul>
+
+---
 
 <H3>SPIRE Lab, Indian Institute of Science</H3>
 
