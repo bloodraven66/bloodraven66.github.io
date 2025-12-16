@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bloodraven66.github.io/sitemap.xml
