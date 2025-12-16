@@ -1,6 +1,6 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {% if site.data.news != blank %}
+    {% assign news_size = site.data.news | size %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -8,21 +8,27 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign news = site.data.news | sort: 'date' | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
+        {% assign last_year = "" %}
         {% for item in news limit: news_limit %}
+          {% assign current_year = item.date | date: '%Y' %}
+          {% if current_year != last_year %}
+            <tr>
+              <td colspan="2" style="padding: 0;">
+                <h2 class="bibliography" style="color: var(--global-text-color); border-top: 2px solid var(--global-text-color); padding-top: 1rem; margin-top: 2rem; margin-bottom: 1rem; text-align: right;">{{ current_year }}</h2>
+              </td>
+            </tr>
+            {% assign last_year = current_year %}
+          {% endif %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b %Y' }}</th>
             <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
+              {{ item.content }}
             </td>
           </tr>
         {% endfor %}
