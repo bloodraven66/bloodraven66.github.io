@@ -107,7 +107,7 @@ nav_order: 2
           <label class="form-check-label" for="filter-physiology">J. Physiology</label>
         </div>
         <div class="form-check">
-          <input class="form-check-input conference-filter" type="checkbox" value="Under submission" id="filter-preprint" checked>
+          <input class="form-check-input conference-filter" type="checkbox" value="Under" id="filter-preprint" checked>
           <label class="form-check-label" for="filter-preprint">Preprints</label>
         </div>
       </div>
@@ -213,8 +213,8 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (keywordBadges.length === 0) {
         showByKeyword = true; // Show papers without keywords
       } else {
-        const pubKeywords = Array.from(keywordBadges).map(badge => 
-          badge.textContent.trim().toLowerCase()
+        const pubKeywords = Array.from(keywordBadges).flatMap(badge => 
+          badge.textContent.trim().toLowerCase().split(',').map(k => k.trim())
         );
         showByKeyword = selectedKeywords.some(keyword => 
           pubKeywords.includes(keyword)
