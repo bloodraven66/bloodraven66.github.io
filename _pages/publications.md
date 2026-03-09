@@ -8,22 +8,98 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<style>
+  .pub-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1.5px solid var(--global-theme-color, #4285F4);
+    color: var(--global-theme-color, #4285F4);
+    background: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+  }
+  .pub-filter-btn:hover {
+    background: var(--global-theme-color, #4285F4);
+    color: #fff;
+  }
+  .pub-filter-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.5rem);
+    z-index: 100;
+    background: var(--global-bg-color, #fff);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  }
+  .pub-filter-dropdown .filter-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .pub-filter-dropdown .filter-actions button {
+    flex: 1;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .pub-filter-dropdown .filter-actions button:hover { opacity: 0.85; }
+  .pub-filter-dropdown .btn-select-all { background: #e8f5e9; color: #2e7d32; }
+  .pub-filter-dropdown .btn-remove-all { background: #fce4ec; color: #c62828; }
+  .pub-filter-dropdown .form-check {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .pub-filter-dropdown .form-check-input {
+    cursor: pointer;
+    flex-shrink: 0;
+    margin: 0;
+    position: static;
+    float: none;
+  }
+  .pub-filter-dropdown .form-check-label {
+    font-size: 0.82rem;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
 <!-- Bibsearch Feature -->
-<div class="filter-container" style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+<div class="filter-container" style="display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 2rem;">
   <div style="flex: 1;">
     {% include bib_search.liquid %}
   </div>
-  
-  <div class="keyword-filters" style="flex: 0 0 auto;">
-    <button id="toggle-keyword-filters" class="btn btn-sm btn-outline-primary" style="margin-bottom: 0.5rem;">
-      Filter by Keyword ▼
+
+  <div class="keyword-filters" style="flex: 0 0 auto; position: relative;">
+    <button id="toggle-keyword-filters" class="pub-filter-btn">
+      🏷 Keyword ▾
     </button>
-    <div id="keyword-filter-checkboxes" style="display: none;">
-      <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-        <button id="select-all-keywords" class="btn btn-sm" style="font-size: 0.75rem; padding: 0.2rem 0.5rem; background-color: #28a745; color: white; border: none;">Select All</button>
-        <button id="deselect-all-keywords" class="btn btn-sm" style="font-size: 0.75rem; padding: 0.2rem 0.5rem; background-color: #dc3545; color: white; border: none;">Remove All</button>
+    <div id="keyword-filter-checkboxes" class="pub-filter-dropdown" style="min-width: 480px; right: auto; left: 0;">
+      <div class="filter-actions">
+        <button id="select-all-keywords" class="btn-select-all">✓ Select All</button>
+        <button id="deselect-all-keywords" class="btn-remove-all">✕ Remove All</button>
       </div>
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 1.5rem;">
         <div class="form-check">
           <input class="form-check-input keyword-filter" type="checkbox" value="spoken dialogue system" id="filter-dialogue" checked>
           <label class="form-check-label" for="filter-dialogue">Spoken Dialogue</label>
@@ -67,17 +143,17 @@ nav_order: 2
       </div>
     </div>
   </div>
-  
-  <div class="conference-filters" style="flex: 0 0 auto;">
-    <button id="toggle-filters" class="btn btn-sm btn-outline-primary" style="margin-bottom: 0.5rem;">
-      Filter by Conference ▼
+
+  <div class="conference-filters" style="flex: 0 0 auto; position: relative;">
+    <button id="toggle-filters" class="pub-filter-btn">
+      🎓 Conference ▾
     </button>
-    <div id="filter-checkboxes" style="display: none;">
-      <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-        <button id="select-all" class="btn btn-sm" style="font-size: 0.75rem; padding: 0.2rem 0.5rem; background-color: #28a745; color: white; border: none;">Select All</button>
-        <button id="deselect-all" class="btn btn-sm" style="font-size: 0.75rem; padding: 0.2rem 0.5rem; background-color: #dc3545; color: white; border: none;">Remove All</button>
+    <div id="filter-checkboxes" class="pub-filter-dropdown" style="min-width: 300px;">
+      <div class="filter-actions">
+        <button id="select-all" class="btn-select-all">✓ Select All</button>
+        <button id="deselect-all" class="btn-remove-all">✕ Remove All</button>
       </div>
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 1.5rem;">
         <div class="form-check">
           <input class="form-check-input conference-filter" type="checkbox" value="ASRU" id="filter-asru" checked>
           <label class="form-check-label" for="filter-asru">ASRU</label>
@@ -135,17 +211,29 @@ document.addEventListener('DOMContentLoaded', function() {
   const deselectAllKeywordsBtn = document.getElementById('deselect-all-keywords');
   
   // Toggle conference filter visibility
-  toggleBtn.addEventListener('click', function() {
-    const isHidden = filterCheckboxes.style.display === 'none';
+  toggleBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const isHidden = filterCheckboxes.style.display !== 'block';
+    keywordFilterCheckboxes.style.display = 'none';
     filterCheckboxes.style.display = isHidden ? 'block' : 'none';
-    toggleBtn.textContent = isHidden ? 'Filter by Conference ▲' : 'Filter by Conference ▼';
   });
   
   // Toggle keyword filter visibility
-  toggleKeywordBtn.addEventListener('click', function() {
-    const isHidden = keywordFilterCheckboxes.style.display === 'none';
+  toggleKeywordBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const isHidden = keywordFilterCheckboxes.style.display !== 'block';
+    filterCheckboxes.style.display = 'none';
     keywordFilterCheckboxes.style.display = isHidden ? 'block' : 'none';
-    toggleKeywordBtn.textContent = isHidden ? 'Filter by Keyword ▲' : 'Filter by Keyword ▼';
+  });
+
+  // Prevent clicks inside dropdowns from closing them
+  filterCheckboxes.addEventListener('click', function(e) { e.stopPropagation(); });
+  keywordFilterCheckboxes.addEventListener('click', function(e) { e.stopPropagation(); });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', function() {
+    filterCheckboxes.style.display = 'none';
+    keywordFilterCheckboxes.style.display = 'none';
   });
   
   // Select all conferences
@@ -191,37 +279,30 @@ document.addEventListener('DOMContentLoaded', function() {
       .map(cb => cb.value.toLowerCase());
     
     publications.forEach(pub => {
-      const journal = pub.querySelector('.periodical');
-      const keywordBadges = pub.querySelectorAll('.keywords .badge');
-      
-      let showByConference = false;
-      let showByKeyword = false;
-      
-      // Check conference filter
+      const row = pub.querySelector('.row[data-keywords]');
+      const journalText = (row ? row.dataset.journal || '' : '').toLowerCase().trim();
+      const pubKeywords = row
+        ? row.dataset.keywords.split(',').map(k => k.trim().toLowerCase()).filter(k => k.length > 0)
+        : [];
+
+      // Check conference filter — hide if none selected
+      let showByConference;
       if (selectedConferences.length === 0) {
-        showByConference = true; // Show all if no filter selected
-      } else if (journal) {
-        const journalText = journal.textContent.toLowerCase();
-        showByConference = selectedConferences.some(conf => 
-          journalText.includes(conf.toLowerCase())
-        );
-      }
-      
-      // Check keyword filter
-      if (selectedKeywords.length === 0) {
-        showByKeyword = true; // Show all if no filter selected
-      } else if (keywordBadges.length === 0) {
-        showByKeyword = true; // Show papers without keywords
+        showByConference = false;
       } else {
-        const pubKeywords = Array.from(keywordBadges).flatMap(badge => 
-          badge.textContent.trim().toLowerCase().split(',').map(k => k.trim())
-        );
-        showByKeyword = selectedKeywords.some(keyword => 
-          pubKeywords.includes(keyword)
-        );
+        showByConference = selectedConferences.some(conf => journalText.includes(conf));
+      }
+
+      // Check keyword filter — hide if none selected
+      let showByKeyword;
+      if (selectedKeywords.length === 0) {
+        showByKeyword = false;
+      } else if (pubKeywords.length === 0) {
+        showByKeyword = true;
+      } else {
+        showByKeyword = selectedKeywords.some(kw => pubKeywords.includes(kw));
       }
       
-      // Show publication only if it matches both filters
       pub.style.display = (showByConference && showByKeyword) ? '' : 'none';
     });
   }

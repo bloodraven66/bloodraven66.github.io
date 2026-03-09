@@ -940,6 +940,11 @@ code {
   word-wrap: break-word;
 }
 
+// Always show scrollbar to prevent layout shift when navigating between pages
+html {
+  overflow-y: scroll;
+}
+
 // Transitioning Themes
 html.transition,
 html.transition *,

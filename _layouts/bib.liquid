@@ -1,6 +1,8 @@
 ---
 ---
-<div class="row">
+<div class="row"
+  data-keywords="{{ entry.keywords | downcase | strip }}"
+  data-journal="{{ entry.journal | downcase | strip }}">
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="col-sm-12">
     <!-- Abbr badge -->
